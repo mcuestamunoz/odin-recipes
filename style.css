@@ -1,0 +1,48 @@
+h1,
+a,
+p {
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;   
+}
+
+li {
+    font-weight: 800;
+    font-size: larger;
+}
+
+#lasagna {
+    color: rebeccapurple;
+}
+
+#lasagna-mexican {
+    color: red;
+}
+
+#lasagna-american {
+    color:aqua;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.box {
+    background-position-x: center;
+    width: 200px;
+    padding: 1em;
+    border-radius: 0,2;
+    border: 5px solid black;
+    background-color: rgb(174, 205, 195);
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: red;
+}
+
+.box::after {
+    content: "¡The best lasagnas of the world!"
+}
+
+* {
+    background-color: greenyellow;
